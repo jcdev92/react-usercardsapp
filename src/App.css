@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .App {
     display: flex;
     flex-direction: column;
@@ -129,9 +133,9 @@
         margin-top: 0.8em;
     }
     .cardusers__button {
-        width: 15vw;
-        height: 10vh;
-        margin-top: 0.5em;
+        width: 20vw;
+        height: 8vh;
+        margin-top: 1em;
     }
     .cardusers__button i {
         font-size: 1.5em;

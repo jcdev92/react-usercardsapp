@@ -22,11 +22,17 @@ function App() {
     setUser(userRandom)
     setColor(colorRandom)
   }
+  
+  let backgroundColor = {
+    backgroundColor: colorRandom
+  }
 
   return (
+    <body style={backgroundColor}>
     <div className="App">
       <Cardusers userRandom={userRandom} colorRandom={colorRandom} handleClick={handleClick}/>
     </div>
+    </body>
   )
 }
 

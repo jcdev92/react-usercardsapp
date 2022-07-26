@@ -24,15 +24,13 @@ function App() {
   }
   
   let backgroundColor = {
-    backgroundColor: colorRandom
+    backgroundColor: color
   }
 
   return (
-    <body style={backgroundColor}>
-    <div className="App">
+    <div className="App" style={backgroundColor}>
       <Cardusers userRandom={userRandom} colorRandom={colorRandom} handleClick={handleClick}/>
     </div>
-    </body>
   )
 }
 
